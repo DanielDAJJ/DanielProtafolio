@@ -1,0 +1,55 @@
+.herramientas {
+    padding: 4rem 0;
+    background-color: #fafafa;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.tools-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+.slider {
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slide-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 40s linear infinite;
+}
+
+.slide {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    height: 64px;
+    width: auto;
+    filter: grayscale(100%) brightness(0.8);
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.slide img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%) brightness(1.1);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

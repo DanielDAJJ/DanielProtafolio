@@ -1,0 +1,19 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  box-sizing: border-box;
+  width: 100%;
+}
+html, body {
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: white;
+  position: relative;
+  scroll-behavior: smooth;
+}

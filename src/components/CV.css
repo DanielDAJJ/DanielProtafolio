@@ -1,0 +1,45 @@
+.cv{
+    background-color: #111;
+    padding: 3rem 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cv-container{
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.cv-foto-mask{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 3px solid #444;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.cv-foto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+}
+.cv-info{
+    flex: 1;
+}
+.btn-descarga{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #5b78f6;
+    color: white;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+.btn-descarga:hover{
+    background-color: #3e54c7;
+    color: white;
+}
