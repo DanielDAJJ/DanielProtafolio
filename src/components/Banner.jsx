@@ -1,12 +1,12 @@
 import React from 'react';
 import "./Inicio.css";
+import VideoFondo from "../assets/VideoBase.mp4";
 
 const Inicio  = () => {
     return(
         <section className="inicio" id="inicio">
             <video autoPlay loop muted className="video-fondo">
-                <source src={"videoFondo"} type="video/mp4"/>
-                Tu navegador no soporta videos.
+                <source src={VideoFondo} type="video/mp4"/>
             </video>
             <div className="contenido">
                 <h1>Bienvenido a mi potafolio!</h1>

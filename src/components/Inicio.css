@@ -1,8 +1,12 @@
 .inicio{
     position: relative;
     width: 100%;
-    height: 150vh;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
     overflow: hidden;
+    scroll-snap-align: start;
+    margin-top: 1500px;
 }
 .video-fondo{
     position: absolute;
@@ -11,18 +15,20 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
+    z-index: 0;
+    aspect-ratio: 1/1;
 }
 .contenido{
     position: relative;
     z-index: 1;
-    padding: 1rem 1rem 5rem 1rem;
-    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
     color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-end;
-    height: 100%;
+    align-items: center;
+    padding-bottom: 10rem;
+    background: rgba(0, 0, 0, 0.3);
 }
