@@ -11,9 +11,11 @@ const CV = () => {
                     <img src={FotoPerfil} alt="Foto de Daniel Jaimes Jiménez" className="cv-foto"/>
                 </div>
                 <div className="cv-info">
-                    <h2>Quieres saber más sobre mí?</h2>
-                    <p>Descarga mi cv y descubre mis habilidades, experiencia y proyectos</p>
-                    <a href={CVPDF} download className="btn-descarga">Descargar CV</a>
+                    <h2>¿Quieres saber más sobre mí?</h2>
+                    <p>Soy una persona creativa, proactiva y en constante aprendizaje.
+                    Combino habilidades en programación de videojuegos con C#, frontend con JavaScript y una sólida base en diseño gráfico, ilustración y animación 2D.
+                    Siempre listo para nuevos retos. ¡Hablemos y creemos algo increíble juntos!</p>
+                    <a href={CVPDF} download className="btn-descarga">Descarga mi CV</a>
                 </div>
             </div>
         </section>

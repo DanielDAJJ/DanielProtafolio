@@ -9,7 +9,7 @@ const Inicio  = () => {
                 <source src={VideoFondo} type="video/mp4"/>
             </video>
             <div className="contenido">
-                <h1>Bienvenido a mi potafolio!</h1>
+                <h1>¡Bienvenido a mi portafolio!</h1>
                 <p>🕹Soy desarollador de videojuegos, con enfoque en Ui develoment y animación 2d, explora mis proyectos y habilidades.🕹</p>
             </div>
         </section>

@@ -11,7 +11,7 @@ const Footer = () => {
                         <a href="mailto:danielDAJJ@outlook.com"> danielDAJJ@outlook.com </a>
                     </p>
                     <p>Telefono:
-                        <a href="tel:+573219134057">
+                        <a href="https://wa.me/573219134057" target="_blank" rel="noopener noreferrer">
                          +57 3219134057
                         </a> 
                     </p>
