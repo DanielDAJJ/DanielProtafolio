@@ -1,6 +1,6 @@
 import React from "react";
 import "./CV.css";
-import CVPDF from "../assets/Template Daniel Jaimes V3-1.pdf";
+import CVPDF from "../assets/CV Daniel Jaimes English Game Tester.pdf";
 import FotoPerfil from "../assets/MyFoto.jpeg";
 
 const CV = () => {
