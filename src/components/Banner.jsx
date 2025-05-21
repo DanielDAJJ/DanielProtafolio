@@ -10,7 +10,7 @@ const Inicio  = () => {
             </video>
             <div className="contenido">
                 <h1>¡Bienvenido a mi portafolio!</h1>
-                <p>🕹Soy desarollador de videojuegos, con enfoque en Ui develoment y animación 2d, explora mis proyectos y habilidades.🕹</p>
+                <p className="contenido_parrafo">🕹Soy desarollador de videojuegos, con enfoque en Ui develoment y animación 2d, explora mis proyectos y habilidades.🕹</p>
             </div>
         </section>
     )
